@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p public
           cp index.html public/
-          echo "simple-login-page" > CNAME
+          echo "login" > CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
